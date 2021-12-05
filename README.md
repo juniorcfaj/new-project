@@ -36,7 +36,8 @@ Build a CI/CD Pipeline to Udacity
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.
 
-Missing
+![image](https://user-images.githubusercontent.com/46963611/144729926-70a1d0b1-d601-42f6-a261-59000a754fc3.png)
+
 ```bash
 udacity@Azure:~$ ./make_predict_azure_app.sh
 Port: 443

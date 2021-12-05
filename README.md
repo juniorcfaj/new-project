@@ -1,4 +1,4 @@
-# New Project
+# New Project on Udacity
 Build a CI/CD Pipeline to Udacity
 
 ## Project Plan

@@ -8,6 +8,18 @@ Build a CI/CD Pipeline to Udacity
 
 ## Instructions
 
+Create a repo on GitHub and clone it
+
+```
+git clone <repo link>
+cd <repo directory>
+git pull
+make all
+
+# Create a new App Service
+az webapp up -n <your-appservice>
+```
+
 * Project running on Azure App Service
 
 ![image](https://user-images.githubusercontent.com/46963611/144729359-f8f05971-d680-407d-b2f3-ca3906ecae93.png)
@@ -49,6 +61,8 @@ Port: 443
 ![image](https://user-images.githubusercontent.com/46963611/144729426-51dab074-2788-48dd-a52e-45e9e906222a.png)
 
 ## GitHub Actions Build: Passed
+
+![Python application test with Github Actions](https://github.com/noahgift/azure-devops/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
 
 Build process must run and complete
 

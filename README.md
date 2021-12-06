@@ -15,7 +15,12 @@ Build a CI/CD Pipeline to Udacity
 
 ## Instructions
 
-Create a repo on GitHub and clone it
+#### Generate your keygen on Azure Cloud Shell
+```
+ssh-keygen -t rsa
+ cat ~/.ssh/id_rsa.pub
+```
+#### Create a repo on GitHub and clone it
 
 ```
 git clone <repo link>
@@ -25,6 +30,23 @@ make all
 
 # Create a new App Service
 az webapp up -n <your-appservice>
+```
+#### Project scaffolging
+```
+Makefile         ->	to create shortcuts to build, test, and deploy a project
+requirements.txt ->	to list what packages a project needs
+hello.py         ->	a basic python app
+test_hello.py    ->	the test python file to above app
+```
+
+#### Create a virtual environment for your application
+```
+python3 -m venv ~/.myrepo
+source ~/.myrepo/bin/activate
+```
+* Run this command to install, lint and test the code
+```
+make all
 ```
 
 * Project running on Azure App Service
@@ -63,9 +85,24 @@ Port: 443
 {"prediction":[20.35373177134412]}
 ```
 
+* Check on webapp log tail ```az webapp log tail```
+
+![image](https://user-images.githubusercontent.com/46963611/144922312-f336af9c-e871-4b29-9f4e-f7d83b102b56.png)
+
+
 * Output of streamed log files from deployed application
 
 ![image](https://user-images.githubusercontent.com/46963611/144729426-51dab074-2788-48dd-a52e-45e9e906222a.png)
+
+* Execute a Load Testing , running Locust .
+Note: Use a VM or your own local machine ( windows, macos, linux) to run Locust Note: copy both files (loadtesting.sh & locustfile.py) and run the loadtesting.sh file and open the browser on http://localhost:8089/
+
+```
+./loadtesting.sh
+```
+
+![image](https://user-images.githubusercontent.com/46963611/144932806-1e831b17-fbaa-4383-897a-5c37df342ac9.png)
+
 
 ## GitHub Actions Build: Passed
 

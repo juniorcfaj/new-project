@@ -1,6 +1,8 @@
 # New Project on Udacity
 Build a CI/CD Pipeline to Udacity
 
+![Python application test with Github Actions](https://github.com/noahgift/azure-devops/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
+
 ## Project Plan
 
 * Trello board: https://trello.com/b/yuFaFEEq/build-a-ci-cd-pipeline
@@ -66,8 +68,6 @@ Port: 443
 ![image](https://user-images.githubusercontent.com/46963611/144729426-51dab074-2788-48dd-a52e-45e9e906222a.png)
 
 ## GitHub Actions Build: Passed
-
-![Python application test with Github Actions](https://github.com/noahgift/azure-devops/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
 
 Build process must run and complete
 

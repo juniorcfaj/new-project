@@ -6,6 +6,11 @@ Build a CI/CD Pipeline to Udacity
 * Trello board: https://trello.com/b/yuFaFEEq/build-a-ci-cd-pipeline
 * Spreadsheet: https://docs.google.com/spreadsheets/d/1YAxcaTxExw9aZCUxsD3dbJK6kDFH-tC8g1qA7hfC3zA/edit?usp=sharing
 
+## Diagram
+
+![image](https://user-images.githubusercontent.com/46963611/144915726-3f4f67e4-8ded-49f1-a27d-e6e879074ac3.png)
+
+
 ## Instructions
 
 Create a repo on GitHub and clone it

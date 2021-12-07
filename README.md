@@ -22,6 +22,8 @@ ssh-keygen -t rsa
 ```
 #### Create a repo on GitHub and clone it
 
+You can download "commands.sh" file and run ```commands.sh``` on Azure Cloud Shell or use these commands:
+
 ```
 git clone git@github.com:juniorcfaj/new-project.git
 cd new-project

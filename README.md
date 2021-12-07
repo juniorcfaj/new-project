@@ -23,13 +23,13 @@ ssh-keygen -t rsa
 #### Create a repo on GitHub and clone it
 
 ```
-git clone <repo link>
-cd <repo directory>
+git clone git@github.com:juniorcfaj/new-project.git
+cd new-project
 git pull
 make all
 
 # Create a new App Service
-az webapp up -n <your-appservice>
+az webapp up -n newudacityapp
 ```
 #### Project scaffolging
 ```
